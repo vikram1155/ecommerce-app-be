@@ -3,13 +3,28 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual environments
 venv/
-
-# Environment variables
 .env
+*.env
 
-# VS Code settings (optional)
+# Logs and temporary files
+*.log
+*.sqlite3
+
+# IDE/editor-specific files
 .vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# FastAPI-specific files (optional if generated during dev)
+*.db
 
 # Byte-compiled / optimized / DLL files
 *.py[cod]
