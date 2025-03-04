@@ -1,0 +1,15 @@
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Environment variables
+.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
